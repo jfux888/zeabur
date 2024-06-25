@@ -1,11 +1,17 @@
 {
-  "name": "x-zeabur-serverless",
+  "name": "my-app",
   "version": "1.0.0",
-  "description": "x-zeabur-serverless",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "echo \"No need to build, files already in .zeabur/output/functions\"",
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1"
   }
 }
