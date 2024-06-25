@@ -7,9 +7,5 @@
     "build": "echo \"No need to build, files already in .zeabur/output/functions\"",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "http-proxy": "latest",
-    "ws": "^8.13.0"
   }
 }
