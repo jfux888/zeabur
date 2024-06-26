@@ -1,6 +1,6 @@
 {
     "serverless": true,
-    "nodeVersion": "20",    
+    "nodeVersion": 20,    
     "build_command": "npm install",
     "start_command": "npm start"
 }
