@@ -1,4 +1,4 @@
 {
-    "start_command": "npm start",
+    "start_command": "npm start &",
     "serverless": true
 }
