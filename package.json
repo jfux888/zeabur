@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "packageManager"="npm@latest",
+  "packageManager":"npm@latest",
   "dependencies": {
     "ws": "^8.0.0",
     "net": "0.0.1"
