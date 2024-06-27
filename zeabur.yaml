@@ -1,0 +1,11 @@
+project: my-serverless-app
+
+deployments:
+  - name: my-app
+    build:
+      - npm install
+    start: npm start
+    runtime: nodejs
+    environment:
+      SERVER_PORT: 8080
+      UUID: feefeb96-bfcf-4a9b-aac0-6aac771c1b98
